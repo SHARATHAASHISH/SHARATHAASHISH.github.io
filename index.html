@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharath Aashish | Portfolio</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f3f4f6;
+  color: #1f2937;
+  line-height: 1.7;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #111827, #1f2937);
+  color: white;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 4px solid white;
+}
+
+.header-text h1 {
+  font-size: 2.3rem;
+}
+
+.header-text p {
+  margin-top: 6px;
+  opacity: 0.9;
+}
+
+.social-links a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* NAV */
+nav {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #111827;
+  font-weight: 500;
+}
+
+/* CONTENT */
+.container {
+  width: 85%;
+  margin: 40px auto;
+}
+
+section {
+  background: white;
+  padding: 35px;
+  margin-bottom: 35px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  border-left: 5px solid #111827;
+  padding-left: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  background: #f9fafb;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #111827;
+}
+
+/* FOOTER */
+footer {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container {
+    width: 92%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="profile2.jpg" class="profile-pic">
+  <div class="header-text">
+    <h1>R Sharath Aashish</h1>
+    <p>Engineering Student | Aspiring Software Developer</p>
+    <p>Easwari Engineering College</p>
+    <div class="social-links">
+      <a href="https://github.com/SHARATHAASHISH" target="_blank">GitHub</a>
+      <a href="https://leetcode.com/u/sharathaashish/" target="_blank">LeetCode</a>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am an engineering student with a strong passion for technology, programming,
+    and problem-solving. I enjoy building real-world applications, practicing
+    data structures, and continuously improving my development skills.
+  </p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+    <li><strong>B.E Computer Science</strong> – Easwari Engineering College (2024–2028)</li>
+    <li><strong>HSC</strong> – Pon Vidyashram Senior Secondary School</li>
+    <li><strong>SSLC</strong> – Narayana e-Techno School</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <ul>
+    <li>C, Java, Python</li>
+    <li>HTML, CSS, JavaScript</li>
+    <li>Data Structures & Problem Solving</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li><strong>Student Portfolio Website</strong> – Personal responsive portfolio using HTML & CSS</li>
+    <li><strong>Hospital Management System</strong> – Mini project for managing patients & records</li>
+    <li><strong>LeetCode Practice</strong> – Solving DSA problems regularly</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <ul>
+    <li>Email: sharathaashish@gmail.com</li>
+    <li>GitHub: https://github.com/SHARATHAASHISH</li>
+    <li>LeetCode: https://leetcode.com/u/sharathaashish/</li>
+     <li>Linkedin: www.linkedin.com/in/sharath-aashish-107775328</li>
+  </ul>
+</section>
+
+</div>
+
+<footer>
+  <p>© 2025 R Sharath Aashish | Portfolio</p>
+</footer>
+
+</body>
+</html>
